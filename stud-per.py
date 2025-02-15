@@ -5,6 +5,7 @@ import pickle
 from sklearn.preprocessing import StandardScaler,LabelEncoder
 
 
+
 def load_model():
     with  open("student_lr_final_model.pkl",'rb') as file:
         model,scaler,le=pickle.load(file)
